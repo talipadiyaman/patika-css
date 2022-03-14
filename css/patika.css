@@ -1,0 +1,98 @@
+/*
+Kullanıdığım renkler : #874356 , #C65D7B , #F68989 , #F6E7D8 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/***********************************  css genel  ************************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: 'Itim', cursive;
+}
+body {
+    background-color: #F6E7D8;;
+}
+
+/***********************************  css diğer  ************************************/
+
+/* menü css */
+ul>li {
+    float: left;
+    display: block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+ul>li>a {
+    color: #F6E7D8;
+}
+ul>li>a:hover {
+    color: #f6e7d875;
+    text-decoration:underline;
+}
+
+
+section {
+    padding: 30px;
+    min-height: calc(100vh - 50px);   
+}
+.fl-right {
+    float: right;
+}
+#header-features {
+    padding:16px;
+    height:34px;
+    background-color: #874356;
+}
+.centr {
+    text-align: center;
+}
+.m-top {
+    margin-top: 30px;
+}
+.box{
+    margin-top: 30px;
+} 
+.inline{
+    display:inline-flex;
+    margin-left: 30px;
+    background-color: #874356;
+    color: #F6E7D8;
+    width: 100px;
+    padding: 10px 0 10px 50px
+} 
+
+.images {
+    margin-top: 30px;
+}
+.images>img {
+    width: 300px;
+    margin: 10px 0 10px 10px;
+}
+footer {
+    padding:25px;
+    height:17px;
+    background-color: #874356;
+}
+
+/****** product css ********/
+
+.foto {
+    margin: 30px;
+}
+
+.foto>img {
+    width: 500px;
+    margin-bottom: 14px;
+}
+.about {
+    color: #534e4b;
+    margin-top: 30px;
+}
