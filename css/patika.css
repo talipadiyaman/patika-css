@@ -37,6 +37,10 @@ ul>li>a:hover {
     color: #f6e7d875;
     text-decoration:underline;
 }
+ul>li>a:visited {
+    color: #f6e7d875;
+    text-decoration:underline;
+}
 
 
 section {
